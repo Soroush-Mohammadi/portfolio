@@ -12,13 +12,9 @@
         ></v-img>
       </div>
       <div class="list text-center">
-        <v-list-item
-          v-for="route in routes"
-          :key="route.id"
-          link
-          :title="route.name"
-          :href="route.path"
-        ></v-list-item>
+        <router-link v-for="route in routes" :key="route.id" :to="route.path">
+          <v-list-item link :title="route.name"></v-list-item>
+        </router-link>
       </div>
     </v-container>
   </v-navigation-drawer>
@@ -45,8 +41,15 @@ const routes = [
   },
   {
     name: "Skills",
-    path: "/Skills",
+    path: "/skills",
     id: "r4",
   },
 ];
 </script>
+
+<style scoped>
+a {
+  color: white;
+  text-decoration: none;
+}
+</style>

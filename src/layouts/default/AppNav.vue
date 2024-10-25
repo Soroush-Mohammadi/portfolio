@@ -6,7 +6,7 @@
     >
       <div class="header">
         <v-img
-          src="/images/profile.jpg"
+          src="/images/profile.png"
           width="150"
           class="rounded-circle bg-blue"
         ></v-img>

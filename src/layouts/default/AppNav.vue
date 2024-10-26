@@ -6,9 +6,9 @@
     >
       <div class="header">
         <v-img
-          src="/images/profile.png"
+          src="/images/my-profile.jpg"
           width="150"
-          class="rounded-circle bg-blue"
+          style="border-radius : 100px"
         ></v-img>
       </div>
       <div class="list text-center">

@@ -10,7 +10,7 @@
       <v-sheet color="transparent">
         <v-row class="intro-body" align="center">
           <v-col class="profile-picture" cols="2">
-            <v-img src="/images/profile.png" max-height="180"></v-img>
+            <v-img src="/images/my-profile.jpg" max-height="180"></v-img>
           </v-col>
           <v-col class="profile-details" cols="4">
             <h4>Name : Soroush mohamadi</h4>
